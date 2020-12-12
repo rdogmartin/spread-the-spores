@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'spread-the-spores';
+  public cell1CssClass = 'empty';
+
+  public cell1Clicked() {
+    this.cell1CssClass = 'player1';
+  }
 }

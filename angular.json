@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spread-the-spores"
+    }
+  },
+  "defaultProject": "spread-the-spores",
+  "cli": {
+    "analytics": false
+  }
 }
