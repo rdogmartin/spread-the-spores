@@ -1,7 +1,7 @@
 .grid{
 	display: grid;
-	grid-template-columns: 25px 25px 25px;
-  grid-template-rows: 25px 25px 25px;
+	grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
 
   div {
     border: 1px solid #000;
@@ -13,9 +13,9 @@
 }
 
 .player1 {
-  background-color: blue;
+  background-color: rgb(55, 55, 226);
 }
 
 .player2 {
-  background-color: red;
+  background-color: rgb(212, 28, 28);
 }
